@@ -28,5 +28,5 @@ jobs:
     - name: Install Surge
       run: npm install -g surge 
     - name: Run Surge
-      run: surge ./ whatulike.surge.sh --token ${{secrets.ABC}}
+      run: surge ./ actually-roll.surge.sh --token ${{secrets.ABC}}
       
